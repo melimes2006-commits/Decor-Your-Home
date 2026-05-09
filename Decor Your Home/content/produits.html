@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Produits</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Decor Your Home</h1>
+
+        <nav>
+            <a href="../index.html">Accueil</a>
+            <a href="inscription.html">Inscription</a>
+            <a href="connexion.html">Connexion</a>
+            <a href="commande.html">Commande</a>
+        </nav>
+    </header>
+
+    <main class="page-produits">
+
+        <h2>Nos Produits</h2>
+
+        <div class="filtres">
+            <button onclick="afficherProduits('tous')">Tous</button>
+            <button onclick="afficherProduits('canape')">Canapés</button>
+            <button onclick="afficherProduits('table')">Tables</button>
+            <button onclick="afficherProduits('rangement')">Rangements</button>
+            <button onclick="afficherProduits('lit')">Lits</button>
+        </div>
+
+        <section id="liste-produits" class="liste-produits"></section>
+
+    </main>
+
+    <script src="../javascript/produits.js"></script>
+
+</body>
+
+</html>
